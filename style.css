@@ -1,7 +1,7 @@
 /*
 Color Palette:
-background color: #FFB3B3 
-font color:   #FFDBA4   
+background color: #B73E3E 
+font color:   #000000   
 secondary color:   #C1EFFF
 tertiary color:   #FFE9AE 
 */
@@ -9,3 +9,12 @@ tertiary color:   #FFE9AE
 /* CSS syntax notes:
     selector {property: value;}
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+body {
+    background-color: #B73E3E;
+    color:  #000000;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
