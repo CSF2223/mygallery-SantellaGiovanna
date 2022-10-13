@@ -21,9 +21,9 @@ header {
     margin: 0 4rem;
     letter-spacing: 0.8rem;
     text-align: center;
-    border-bottom: 1px solid #826F66;
-    border-right: 1px solid #826F66;
-    border-left: 1px solid #826F66;
+    border-bottom: 2px solid #C1EFFF;
+    border-right: 2px solid #C1EFFF;
+    border-left: 2px solid #C1EFFF;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
@@ -45,6 +45,10 @@ p {
     font-size: 1.2rem;
 }
 
+.story { 
+    font-size: 1.5rem;
+}
+
 .imageCard {
     display: flex;
     flex-direction: column;
@@ -62,12 +66,16 @@ p {
 
 .imageCard a {
     text-decoration: none;
-    color: #826F66;
+    color: #C1EFFF;
 }
 
 .cardText{
     color: #000000;
     text-align: center;
+    border-bottom: 2px solid #C1EFFF;
+    border-right: 2px solid #C1EFFF;
+    border-left: 2px solid #C1EFFF;
+    border-top: 2px solid #C1EFFF;
     padding: 2rem;
     border-radius:30px;
     margin-top:2rem;
@@ -89,4 +97,7 @@ p {
     .imageCard {
         max-width: 26%;
     }
+}
+img {
+  border: 5px solid #C1EFFF;
 }
