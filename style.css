@@ -1,7 +1,106 @@
 /*
 Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+background color: #B73E3E 
+font color:   #FFFFFF   
+secondary color:   #C1EFFF
+tertiary color:   #FFE9AE 
 */
+
+/* CSS syntax notes:
+    selector {property: value;}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;  /* Default font size is 16px - 62.5% of 16 is 10px - 
+                          1 rem (relative unit) now will be equivalent to 10px} */
+}
+
+header {
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom: 2px solid #C1EFFF;
+    border-right: 2px solid #C1EFFF;
+    border-left: 2px solid #C1EFFF;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+body {
+    background-color: #B73E3E;
+    color:  #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #F55353 0%, #541690 51%, #F55353 85%);
+}
+
+cite{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.story { 
+    font-size: 1.5rem;
+}
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 7rem 4rem;
+}
+
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius:30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageCard a {
+    text-decoration: none;
+    color: #C1EFFF;
+}
+
+.cardText{
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom: 2px solid #C1EFFF;
+    border-right: 2px solid #C1EFFF;
+    border-left: 2px solid #C1EFFF;
+    border-top: 2px solid #C1EFFF;
+    padding: 2rem;
+    border-radius:30px;
+    margin-top:2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .imageCard {
+        max-width: 26%;
+    }
+}
+
+img {
+  border: 5px solid #C1EFFF;
+}
